@@ -10,8 +10,6 @@ body {
 }
 
 
-/* CABEÇALHO */
-
 header {
     width: 100%;
     height: 100px;
@@ -20,48 +18,118 @@ header {
     align-items: center;
     justify-content: space-between;
 
-    padding: 0 40px;
+    padding: 40px;
 }
 
-
-/* LOGO */
 
 .logo img {
     width: 220px;
-    height: auto;
+
 }
 
-
-/* BOTÕES */
-
-.botoes nav {
+.botoes {
     display: flex;
     gap: 10px;
+
 }
 
-.botoes a {
-    text-decoration: none;
+nav a {
     color: white;
-
     background-color: #ff4054;
-
-    padding: 12px 20px;
-
+    padding: 20px;
     border-radius: 6px;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: larger;
+    color: black;
 
-    font-weight: bold;
 }
 
+.roupaspromo {
+    display: flex;
+    justify-content: space-between;
+    padding: 7vh;
+    
+}
 
-/* IMAGEM PRINCIPAL */
+.r1 {
+    display: flex;
+    height: 60vh;
+    width: 35vh;
+    background-color: rgb(245, 245, 245);
+    flex-direction: column-reverse;
+    border-radius: 1vh;
+}
+
+.r12 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ff4054;
+    height: 5vh;
+    border-radius: 1vh;
+
+}
+
+.r2 {
+    display: flex;
+     height: 60vh;
+    width: 35vh;
+    background-color: rgb(245, 245, 245);
+    flex-direction: column-reverse;
+    border-radius: 1vh;
+}
+
+.r22 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ff4054;
+    height: 5vh;
+    border-radius: 1vh;
+    font-size: medium;
+
+}
+
+.r3 {
+    display: flex;
+    height: 60vh;
+    width: 35vh;
+    background-color: rgb(245, 245, 245);
+    flex-direction: column-reverse;
+    border-radius: 1vh;
+}
+
+.r32 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ff4054;
+    height: 5vh;
+    border-radius: 1vh;
+}
+
 
 .imagem {
     width: 100%;
 }
 
 .imagem img {
-    display: block;
+    display: flex;
 
     width: 100%;
-    height: auto;
+
 }
+.login{display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+gap: 100px;
+}
+
+.pai{background-color: gray;
+    width: 35vh;
+    padding: 9vh;
+    margin-left: 5vh;
+    border-radius: 20px;
+
+justify-content: space-between;}
